@@ -114,7 +114,7 @@ export const ServiceDetailPage: React.FC = () => {
             HERO AREA FOR THIS SERVICE
            ======================================================== */}
         <ScrollReveal direction="up">
-          <div className="p-8 sm:p-12 lg:p-16 rounded-3xl bg-slate-900/80 border border-slate-800 backdrop-blur-2xl relative overflow-hidden mb-16 shadow-2xl">
+          <div className="p-5 sm:p-10 lg:p-14 rounded-2xl sm:rounded-3xl bg-slate-900/80 border border-slate-800 backdrop-blur-2xl relative overflow-hidden mb-12 sm:mb-16 shadow-2xl">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
             <div className="lg:col-span-8">
               {/* Category Badge & Icon */}
@@ -143,13 +143,14 @@ export const ServiceDetailPage: React.FC = () => {
               </p>
 
               {/* Action Buttons */}
-              <div className="mt-8 flex flex-wrap items-center gap-4">
+              <div className="mt-7 sm:mt-8 flex flex-col sm:flex-row sm:flex-wrap items-stretch sm:items-center gap-3 sm:gap-4">
                 <Button
                   href={`/contact?service=${encodeURIComponent(service.title)}`}
                   variant="glow"
                   size="md"
-                  leftIcon={<Calendar className="w-4 h-4 text-slate-950" />}
-                  rightIcon={<ArrowRight className="w-4 h-4 text-slate-950" />}
+                  className="w-full sm:w-auto"
+                  leftIcon={<Calendar className="w-4 h-4 text-white" />}
+                  rightIcon={<ArrowRight className="w-4 h-4 text-white" />}
                 >
                   Request Consultation &amp; Quote
                 </Button>
@@ -159,6 +160,7 @@ export const ServiceDetailPage: React.FC = () => {
                   isExternal
                   variant="whatsapp"
                   size="md"
+                  className="w-full sm:w-auto"
                   leftIcon={<MessageSquare className="w-4 h-4" />}
                 >
                   WhatsApp Inquire

@@ -173,13 +173,14 @@ export const HomePage: React.FC = () => {
               </p>
 
               {/* CTA Buttons */}
-              <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+              <div className="mt-8 sm:mt-10 flex flex-col sm:flex-row items-stretch sm:items-center justify-center lg:justify-start gap-3 sm:gap-4">
                 <Button
                   href={bookingAction.href}
                   isExternal={bookingAction.isExternal}
                   variant="glow"
                   size="lg"
-                  leftIcon={<Calendar className="w-5 h-5 text-white" />}
+                  className="w-full sm:w-auto"
+                  leftIcon={<Calendar className="w-4 h-4 sm:w-5 sm:h-5 text-white" />}
                   rightIcon={<ArrowRight className="w-4 h-4 text-white" />}
                 >
                   Book a Strategy Call
@@ -189,7 +190,8 @@ export const HomePage: React.FC = () => {
                   href="/products"
                   variant="secondary"
                   size="lg"
-                  leftIcon={<Layers className="w-5 h-5 text-[#00C8FF]" />}
+                  className="w-full sm:w-auto"
+                  leftIcon={<Layers className="w-4 h-4 sm:w-5 sm:h-5 text-[#00C8FF]" />}
                 >
                   Explore Our Solutions
                 </Button>

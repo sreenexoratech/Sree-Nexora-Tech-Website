@@ -50,12 +50,13 @@ export const ContactCTA: React.FC<ContactCTAProps> = ({
             </p>
 
             {/* Action Buttons */}
-            <div className="mt-6 sm:mt-7 flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
+            <div className="mt-6 sm:mt-7 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4">
               <Button
                 href={bookingAction.href}
                 isExternal={bookingAction.isExternal}
                 variant="glow"
                 size="md"
+                className="w-full sm:w-auto"
                 leftIcon={<Calendar className="w-4 h-4 text-white" />}
                 rightIcon={<ArrowRight className="w-3.5 h-3.5 text-white" />}
               >
@@ -67,6 +68,7 @@ export const ContactCTA: React.FC<ContactCTAProps> = ({
                 isExternal
                 variant="whatsapp"
                 size="md"
+                className="w-full sm:w-auto"
                 leftIcon={<MessageSquare className="w-4 h-4" />}
               >
                 Chat on WhatsApp

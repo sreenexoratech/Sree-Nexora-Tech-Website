@@ -33,12 +33,12 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     ref
   ) => {
     const baseStyles =
-      'inline-flex items-center justify-center font-semibold transition-all duration-300 rounded-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#00C8FF] select-none cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed disabled:pointer-events-none active:scale-[0.98] whitespace-nowrap flex-shrink-0';
+      'inline-flex items-center justify-center font-semibold transition-all duration-300 rounded-xl focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-[#00C8FF] select-none cursor-pointer disabled:opacity-60 disabled:cursor-not-allowed disabled:pointer-events-none active:scale-[0.98] max-w-full text-center leading-snug';
 
     const sizeStyles = {
-      sm: 'text-xs px-3.5 py-2 gap-1.5 min-h-[38px]',
-      md: 'text-sm px-5 py-2.5 gap-2 min-h-[46px]',
-      lg: 'text-base px-7 py-3.5 gap-2.5 min-h-[52px]'
+      sm: 'text-xs px-3 sm:px-3.5 py-2 gap-1.5 min-h-[36px] sm:min-h-[38px]',
+      md: 'text-xs sm:text-sm px-4 sm:px-5 py-2.5 gap-2 min-h-[42px] sm:min-h-[46px]',
+      lg: 'text-sm sm:text-base px-4 sm:px-7 py-3 sm:py-3.5 gap-2 sm:gap-2.5 min-h-[46px] sm:min-h-[52px]'
     };
 
     const variantStyles = {

@@ -78,7 +78,7 @@ export const ProductDetailPage: React.FC = () => {
             PRODUCT HERO
            ======================================================== */}
         <ScrollReveal direction="up">
-          <div className="p-8 sm:p-12 lg:p-16 rounded-3xl bg-slate-900/80 border border-slate-800 backdrop-blur-2xl relative overflow-hidden mb-16 shadow-2xl">
+          <div className="p-5 sm:p-10 lg:p-14 rounded-2xl sm:rounded-3xl bg-slate-900/80 border border-slate-800 backdrop-blur-2xl relative overflow-hidden mb-12 sm:mb-16 shadow-2xl">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             {/* Left Info */}
             <div className="lg:col-span-7">
@@ -104,12 +104,13 @@ export const ProductDetailPage: React.FC = () => {
               </p>
 
               {/* Action Buttons: Request Demo, Live Demo / Demo Coming Soon, WhatsApp */}
-              <div className="mt-8 flex flex-wrap items-center gap-3.5">
+              <div className="mt-7 sm:mt-8 flex flex-col sm:flex-row sm:flex-wrap items-stretch sm:items-center gap-3 sm:gap-3.5">
                 <Button
                   onClick={() => setIsDemoModalOpen(true)}
                   variant="glow"
                   size="md"
-                  leftIcon={<Sparkles className="w-4 h-4 text-slate-950" />}
+                  className="w-full sm:w-auto"
+                  leftIcon={<Sparkles className="w-4 h-4 text-white" />}
                 >
                   Request a Live Demo
                 </Button>
@@ -120,17 +121,17 @@ export const ProductDetailPage: React.FC = () => {
                     isExternal
                     variant="secondary"
                     size="md"
-                    className="text-blue-400 hover:text-white"
+                    className="w-full sm:w-auto text-blue-400 hover:text-white"
                     rightIcon={<ExternalLink className="w-4 h-4" />}
                   >
                     Open Live Sandbox Demo
                   </Button>
                 ) : (
                   <div
-                    className="inline-flex items-center gap-2 px-4 py-3 rounded-xl bg-slate-950/80 border border-slate-800 text-amber-400 text-xs font-semibold select-none"
+                    className="inline-flex items-center justify-center sm:justify-start gap-2 px-4 py-2.5 rounded-xl bg-slate-950/80 border border-slate-800 text-amber-400 text-xs font-semibold select-none text-center sm:text-left"
                     title="Public sandbox not configured. Please request a private demo walkthrough."
                   >
-                    <Clock className="w-4 h-4" />
+                    <Clock className="w-4 h-4 flex-shrink-0" />
                     <span>Demo Coming Soon (Request Private Walkthrough)</span>
                   </div>
                 )}
@@ -140,6 +141,7 @@ export const ProductDetailPage: React.FC = () => {
                   isExternal
                   variant="whatsapp"
                   size="md"
+                  className="w-full sm:w-auto"
                   leftIcon={<MessageSquare className="w-4 h-4" />}
                 >
                   WhatsApp Inquire
