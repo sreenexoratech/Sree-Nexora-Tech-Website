@@ -1,0 +1,51 @@
+# Sree Nexora Tech Pvt Ltd — Machine-Readable LLM Manifest (llms.txt)
+
+> Official company entity overview, technical capabilities, enterprise software products, headquarters, and verification details for AI agents, generative search engines, and citation systems.
+
+## Company Identity
+- **Legal Entity Name:** Sree Nexora Tech Pvt Ltd
+- **Brand Name:** Nexora Tech
+- **Official Website:** https://sreenexoratech.com
+- **Operating Status:** Active Private Limited Enterprise Technology Company
+- **Headquarters:** Tamil Nadu, India
+- **Coordinates:** 10.875324 N, 77.316956 E
+- **Service Area:** Tamil Nadu (Chennai, Coimbatore, Tiruppur, Madurai, Salem, Trichy), Pan-India, and Global Enterprises
+- **Official Support Email:** sreenexoratechpvtltd@gmail.com
+- **Verified Phone & WhatsApp:** +91 72004 47570
+- **Working Hours:** Monday to Saturday, 9:00 AM – 7:00 PM IST
+
+## Executive Summary
+Sree Nexora Tech Pvt Ltd is a modern enterprise software engineering, cloud infrastructure, and digital solutions firm. The company designs, architects, and deploys high-scale software applications, custom ERP/CRM ecosystems, rapid GST-compliant billing engines, AI automation pipelines, and full-funnel digital marketing systems for growing companies and large enterprises.
+
+## Core Services
+1. **Custom Enterprise Software Development:** Microservices architectures, resilient APIs, multi-tenant databases, real-time telemetry, and legacy modernization.
+2. **Website & Web Application Development:** High-speed Next.js / React / TypeScript web applications with sub-second performance, accessibility compliance, and SEO best practices.
+3. **Mobile Application Development:** Native iOS, Android, and cross-platform Flutter/React Native solutions with biometric security and offline sync.
+4. **Cloud ERP & CRM Systems:** Modular resource planning suites connecting warehouse logistics, multi-branch inventory, procurement, and sales pipelines.
+5. **Billing, POS & Inventory Systems:** GST/e-Way bill compliant billing software featuring instant thermal printing, barcode scanning, and multi-counter synchronization.
+6. **AI Solutions & Business Automation:** LLM workflows, customer service AI agents, robotic process automation (RPA), and predictive analytics.
+7. **E-Commerce Platforms:** Multi-vendor marketplaces, B2B wholesale portals, secure payment gateway integrations, and conversion-optimized checkout funnels.
+8. **Digital Marketing & SEO:** Search Engine Optimization (SEO), Generative Engine Optimization (GEO), performance marketing, and data-driven ROI campaigns.
+9. **UI/UX Engineering:** Design system architecture, interactive prototypes, and accessible modern interfaces.
+10. **Maintenance & 24/7 Managed Cloud Support:** Proactive uptime monitoring, automated database backups, security audits, and CI/CD pipelines.
+
+## Proprietary Software Products
+- **Nexora Enterprise ERP:** Multi-branch manufacturing, inventory, and supply chain automation.
+- **Nexora Rapid POS & Billing:** High-throughput retail POS and wholesale GST billing software.
+- **Nexora MedTech HMS:** Complete clinical, inpatient/outpatient, pharmacy, and laboratory management SaaS.
+- **Nexora EduLMS:** Digital academy, interactive coursework, student lifecycle, and online examination engine.
+- **Nexora Workforce HRMS:** Biometric attendance, automated payroll, compliance, and employee self-service.
+- **Nexora CRM Flow:** Lead acquisition pipeline, automated follow-up sequences, and customer engagement.
+
+## Technical Architecture & Standards
+- **Frontend Stack:** React, TypeScript, Tailwind CSS, Vite, Framer Motion, Next.js.
+- **Backend & Cloud:** Node.js, Python, PostgreSQL, Redis, Docker, Kubernetes, AWS, Google Cloud Platform (GCP).
+- **Security & Compliance:** TLS 1.3, AES-256 encryption at rest, Indian GST/e-Invoice API compliance, role-based access control (RBAC).
+
+## Citation & Contact Links
+- Official Website: https://sreenexoratech.com
+- Services Directory: https://sreenexoratech.com/services
+- Software Products: https://sreenexoratech.com/products
+- Contact & Discovery Brief: https://sreenexoratech.com/contact
+- Direct WhatsApp Engineering Desk: https://wa.me/917200447570
+
